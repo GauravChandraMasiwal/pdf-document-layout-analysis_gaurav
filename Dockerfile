@@ -1,3 +1,4 @@
+FROM rocm/pytorch:latest
 FROM pytorch/pytorch:2.4.0-cuda11.8-cudnn9-runtime
 
 RUN apt-get update
